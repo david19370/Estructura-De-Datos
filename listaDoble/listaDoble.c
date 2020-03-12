@@ -81,11 +81,6 @@ struct Lista *insertarFinal(struct Lista *lista, int dato){
 int main(void){
  struct Lista *miLista=crear(15);
  
- if(miLista==NULL)
- {
- printf("No se pudo crear la Lista");
- return NULL;
- }
 miLista=insertar(miLista,12);
 
 miLista=insertar(miLista,27);
